@@ -1,0 +1,30 @@
+# ===========================================
+# UPDATED REQUIREMENTS - Works with Python 3.12
+# ===========================================
+
+# Web Framework
+fastapi>=0.109.0
+uvicorn>=0.27.0
+
+# Database
+sqlalchemy>=2.0.25
+
+# Authentication
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+python-multipart>=0.0.7
+
+# Data Processing & ML (Pre-built wheels - no compilation needed!)
+pandas>=2.2.0
+numpy>=1.26.4
+scikit-learn>=1.4.0
+
+# Validation
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+
+# Environment Variables
+python-dotenv>=1.0.0
+
+# For development/testing
+httpx>=0.26.0
